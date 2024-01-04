@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T13:38:18.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="_Zd07Eg9XY1KIiU1Dfns" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T14:19:44.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qTws0JJZ4hiofwU7oCXb" version="22.1.16" type="github">
   <diagram name="Page-1" id="V6azOzF-C8UNt1h_pagm">
-    <mxGraphModel>
+    <mxGraphModel dx="1214" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-1" value="Başla" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="137.5" y="318" as="sourcePoint" />
+            <mxPoint x="137.16000000000003" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.65999999999997" y="140" as="sourcePoint" />
+            <mxPoint x="139.65999999999997" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.019;exitY=0.916;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="H9C-8eLKbqCfZqd0gHtd-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="270" as="sourcePoint" />
+            <mxPoint x="140" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="257" />
+              <mxPoint x="280" y="230" />
+              <mxPoint x="280" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-12" value="Hayır" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-13" value="Evet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-16" value="Kullanıcı bir istekte bulundu mu?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="195" width="135" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-17" value="İlgili MQTT konusundan sunucuya istek paketini gönder ve sunucunun cevap paketini göndereceği konuya abone ol." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="400" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-20" value="MQTT Veri Olayı" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-22" value="MQTT&#39;den istenilen&lt;br&gt;veri geldi mi?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="180" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="205" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="234.66" as="sourcePoint" />
+            <mxPoint x="590" y="234.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-26" value="Bitir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-27" value="Hayır" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="300" as="sourcePoint" />
+            <mxPoint x="424" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9C-8eLKbqCfZqd0gHtd-29" value="Evet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
